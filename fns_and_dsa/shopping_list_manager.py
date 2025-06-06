@@ -12,16 +12,17 @@ def main():
         choice = int(input("Enter your choice: "))
 
         if choice == 1:
-            input_add = input("Enter the item that you would like to add: ")
+            input_add = input("Enter the item to add: ")
             shopping_list.append(input_add)
             pass
         elif choice == 2:
-            input_remove = input("Enter the item that you would like to remove: ")
+            input_remove = input("Enter the item to remove: ")
             shopping_list.remove(input_remove)
             pass
         elif choice == 3:
-            print(shopping_list)
-            pass
+            print("Current Shopping List:")
+            for item in shopping_list:
+                print(f"- {item}")
         elif choice == 4:
             print("Goodbye!")
             break
