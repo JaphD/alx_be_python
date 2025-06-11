@@ -2,7 +2,7 @@
 
 class BankAccount:
 
-    def __init__(self, account_balance):
+    def __init__(self, account_balance=9):
         self.account_balance = account_balance
     
     def deposit(self, amount):
