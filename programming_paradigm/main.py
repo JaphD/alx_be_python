@@ -11,7 +11,7 @@ def main():
 
     result = safe_divide(numerator, denominator)
     if result is not None:
-        print("The result of the division is",result)
+        print(result)
     
 
 if __name__ == "__main__":
