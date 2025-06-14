@@ -1,0 +1,1 @@
+This repository serves as a collection of all weekly projects completed as part of the ALX Back-end Python curriculum. Each directory within this repository corresponds to a specific project, demonstrating concepts and skills learned throughout the program.
